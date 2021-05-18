@@ -5,19 +5,32 @@
 <ui:composition>
 	<div class="row">
 		<div class="container">
-			<center>
-				<ul class="list-group">
-					<br />
-					<br />
-					<br />
-					<br />
-					<h4>Aquí se colocará el cuerpo de la página</h4>
-					<br />
-					<br />
-					<br />
-					<br />
-				</ul>
-			</center>
+			<ul class="list-group">
+				<li class="list-group-item">
+					<!-- Se obtiene el contexto de la aplicacion Ej. http://localhost:8080/nombreAplicacion --> 
+					<a href="#{request.contextPath}/PROYECTO_pages/PROYECTO_secure/primefaces/inputs.xhtml">Inputs</a>
+				</li>
+				<li class="list-group-item">
+					<!-- Se obtiene el contexto de la aplicacion Ej. http://localhost:8080/nombreAplicacion --> 
+					<a href="#{request.contextPath}/PROYECTO_pages/PROYECTO_secure/primefaces/validacionPersonalizada.xhtml">Inputs con validación personalizada</a>
+				</li>
+				<li class="list-group-item">
+					<!-- Se obtiene el contexto de la aplicacion Ej. http://localhost:8080/nombreAplicacion --> 
+					<a href="#{request.contextPath}/PROYECTO_pages/PROYECTO_secure/primefaces/inputMask.xhtml">InputMask primefaces</a>
+				</li>
+				<li class="list-group-item">
+					<!-- Se obtiene el contexto de la aplicacion Ej. http://localhost:8080/nombreAplicacion --> 
+					<a href="#{request.contextPath}/PROYECTO_pages/PROYECTO_secure/primefaces/password.xhtml">Password primefaces</a>
+				</li>
+				<li class="list-group-item">
+					<!-- Se obtiene el contexto de la aplicacion Ej. http://localhost:8080/nombreAplicacion --> 
+					<a href="#{request.contextPath}/PROYECTO_pages/PROYECTO_secure/primefaces/tabView.xhtml">TabView primefaces</a>
+				</li>
+				<li class="list-group-item">
+					<!-- Se obtiene el contexto de la aplicacion Ej. http://localhost:8080/nombreAplicacion --> 
+					<a href="#{request.contextPath}/PROYECTO_pages/PROYECTO_secure/primefaces/clientePrime.xhtml">Clientes</a>
+				</li>
+			</ul>
 		</div>
 	</div>
 </ui:composition>
